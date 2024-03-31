@@ -1,0 +1,82 @@
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(34 67 98);
+  color: white;
+  margin-top: 0px;
+  font-size: 30px;
+  min-height: 515px;
+}
+
+.flexbox-item {
+  min-width: 200px;
+  min-height: 558px;
+  margin: 10px;
+  border: 10px solid black;
+  background-color: rgb(34 67 120);
+}
+
+.flexbox-item-1 {
+  min-height: 300px;
+  min-width: 500px;
+  text-align: center;
+}
+
+.flexbox-item-2 {
+  min-width: 900px;
+  padding: 10px;
+  text-align: center;
+}
+
+.flexbox-item-1-1 {
+  display: flex;
+  flex-direction: space-between;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.add-button {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  width: 100px;
+  height: 45px;
+  background-color: green;
+  color: white;
+  border-radius: 10%;
+  font-size: 20px;
+  box-shadow: 10px 7px rgba(0, 0, 0, 0.9);
+}
+
+.delete-button {
+  margin-left: 25px;
+  width: 100px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  border-radius: 10%;
+  font-size: 20px;
+}
+
+.input-field {
+  width: 200px;
+  height: 25px;
+  font-size: 20px;
+  padding: 5px;
+  border: 3px solid white;
+  background-color: rgb(34 67 150);
+  color: white;
+  box-shadow: 10px 7px rgba(0, 0, 0, 0.9);
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
